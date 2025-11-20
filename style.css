@@ -103,7 +103,7 @@ h3 {
 }
 
 .cta-section {
-    width: 100vw;
+
     background-color: #FFC0CB; 
     color: #333;
     text-align: center;
@@ -168,7 +168,7 @@ h3 {
 
 .metrics-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -188,7 +188,11 @@ h3 {
     color: #FF69B4; 
     font-weight: 700;
     display: block;
-    margin-bottom: 5px;
+    margin: 0px;
+}
+
+.metric-box img {
+    width: 50px;
 }
 
 .donors-section {
@@ -207,6 +211,17 @@ h3 {
 .message-card {
     background-color: white;
     border-left: 5px solid #FF69B4;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    transition: border 0.5s ease;
+}
+
+.message-card:hover {
+    background-color: white;
+    border-left: 25px solid #FF69B4;
     padding: 20px;
     width: 300px;
     text-align: left;
