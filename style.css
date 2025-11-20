@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-    width: 100vw;
+    width: 1100px;
     height: 40px;
     background-color: black;
     color: white;
@@ -103,6 +103,7 @@ h3 {
 }
 
 .cta-section {
+    width: 1100px;
     background-color: #FFC0CB; 
     color: #333;
     text-align: center;
