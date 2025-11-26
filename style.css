@@ -185,6 +185,8 @@ h3 {
     text-align: center;
     background-color: #E6E6FA;
     margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .metrics-grid {
