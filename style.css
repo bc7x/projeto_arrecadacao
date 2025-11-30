@@ -227,6 +227,10 @@ h3 {
 
 .section_transp {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box_transparencia {
@@ -250,6 +254,10 @@ h3 {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #e0ffec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #conteudo-secreto img {
