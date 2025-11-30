@@ -71,7 +71,7 @@
             </div>
             <div class="metric-box">
                 <img src="imagens/money.png" alt="">
-                <span class="metric-number">$ 325</span>
+                <span class="metric-number">$ 355</span>
                 <p>Em Pix Feitos</p>
             </div>
             <div class="metric-box">
@@ -114,6 +114,19 @@
                 <span class="metric-number">50%</span>
                 <p>Meta Atingida</p>
             </div> -->
+        </div>
+    </section>
+
+    <section class="section_transp">
+        <div id="conteudo-secreto" class="box_transparencia">
+            <h2>Transparência</h2>
+            <p><span style="font-weight: bold">Clique para ver comprovantes</span></p>
+            <button id="botao-alternar" class="contact-button">Mostrar / Esconder</button>
+            <img src="imagens/comp_pix.png" alt="">
+            <img src="imagens/itens_1.png" alt="">
+            <img src="imagens/itens_2.png" alt="">
+            <img src="imagens/pedido.png" alt="">
+            <img src="imagens/rastreio.png" alt="">
         </div>
     </section>
 
@@ -210,6 +223,19 @@
             <p style="font-size: 12px">Desenvolvido por <span style="font-weight: bold"><a href="https://wa.me/5512991757787" target="_blank">Leonardo</a></span></p>
         </div>
     </footer>
+
+    <script>
+        const botao = document.getElementById('botao-alternar');
+        const conteudo = document.getElementById('conteudo-secreto');
+
+        function alternarVisibilidade() {
+
+            conteudo.classList.toggle('box_transparencia');
+        }
+
+        botao.addEventListener('click', alternarVisibilidade);
+        
+    </script>
 
 </body>
 </html>
