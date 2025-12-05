@@ -164,6 +164,23 @@ h3 {
     color: #8A2BE2;
 }
 
+.organizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.organizar img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.organizar iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .contact-button {
     width: 400px;
     background-color: #25D366; 
