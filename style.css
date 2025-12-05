@@ -172,11 +172,13 @@ h3 {
 }
 
 .organizar img {
+    width: 380px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .organizar iframe {
+    width: 380px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
